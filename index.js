@@ -30,4 +30,4 @@ app.get('/', (req, res)=> {
     res.send('salam');
 })
 
-app.listen(3001);
+app.listen(process.env.PORT|| 3001);
